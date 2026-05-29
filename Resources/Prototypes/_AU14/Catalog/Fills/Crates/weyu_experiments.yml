@@ -57,15 +57,29 @@
 # Dedicated clotted-syringe crate — six pre-filled syringes for a WYHT
 # squad to use on captured colonists. Folded medical tents come along
 # for set dressing like the other WY secure crates.
+# commented out because WY dealing with aboms every round is Not Fun Gameplay - K
+#- type: entity
+ # id: AU14CrateSecureWeYuClottedSyringes
+  #parent: AU14CrateSecureWeYuXenoEggs
+  #name: secure We-Yu crate
+  #suffix: AU14, Clotted Syringes
+  #components:
+  #- type: StorageFill
+    #contents:
+      #- id: AU14AbominationVenomSyringe
+        #amount: 6
+      #- id: RMCTentUNMCStandardMedicalFolded
+      #- id: AU14TentBigFoldedSurgical
+
 - type: entity
-  id: AU14CrateSecureWeYuClottedSyringes
+  id: AU14CrateSecureGatfruit
   parent: AU14CrateSecureWeYuXenoEggs
   name: secure We-Yu crate
-  suffix: AU14, Clotted Syringes
+  suffix: AU14, Gatfruit
   components:
   - type: StorageFill
     contents:
-      - id: AU14AbominationVenomSyringe
-        amount: 6
+      - id: GatfruitSeeds
+        amount: 3
       - id: RMCTentUNMCStandardMedicalFolded
       - id: AU14TentBigFoldedSurgical
