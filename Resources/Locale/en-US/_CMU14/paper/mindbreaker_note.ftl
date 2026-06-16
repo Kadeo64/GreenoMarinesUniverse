@@ -1,0 +1,2 @@
+cmu-mindbreaker-research-note = "This crate contains mindbreaker toxin, a potent chemical that can cause psychosis and insanity. Test responsibly. It was reverse-engineered from an alien device also included, although we still do not know the full effects of said alien device."
+cmu-egg-hivebreaker-research-note = "This crate contains eggs the company has had little success with hatching. They were obtained alongside an alien device, which appears to be related. The eggs could potentially be dangerous, so use caution."
