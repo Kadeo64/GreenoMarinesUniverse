@@ -1,4 +1,20 @@
 - type: entity
+  id: PaperWrittenMindbreakerText
+  suffix: "Mindbreaker Writeup"
+  parent: Paper
+  components:
+  - type: Paper
+    content: cmu-mindbreaker-research-note
+    
+- type: entity
+  id: PaperWrittenHivebreakerText
+  suffix: "Alien Egg Writeup"
+  parent: Paper
+  components:
+  - type: Paper
+    content: cmu-egg-hivebreaker-research-note
+    
+- type: entity
   id: AU14CrateSecureWeYuXenoEggs
   parent: RMCCrateSecureWeYa
   name: secure We-Yu crate
@@ -12,6 +28,8 @@
       - id: RMCTentUNMCStandardMedicalFolded
       - id: AU14TentBigFoldedSurgical
       - id: CMUYautjaHivebreaker
+      - id: PaperWrittenHivebreakerText
+      
 
 - type: entity
   id: AU14CrateSecureWeYuMindBreaker
@@ -26,6 +44,7 @@
       - id: CMUYautjaHivebreaker
       - id: RMCTentUNMCStandardMedicalFolded
       - id: AU14TentBigFoldedSurgical
+      - id: PaperWrittenMindbreakerText
 
 - type: entity
   id: AU14CrateSecureWeYuDrug
