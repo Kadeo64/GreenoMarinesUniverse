@@ -1,0 +1,14 @@
+- type: entity
+  parent: RehydratableAnimalCube
+  id: CMUMonkeyCube
+  name: monkey cube
+  components:
+  - type: Rehydratable
+    possibleSpawns:
+    - CMMobSmallHostMonkey
+  - type: Tag
+    tags:
+    - Meat
+    - MonkeyCube
+
+# todo - add the other 'smallhosts' like farwa and yiren. #notmyproblem
